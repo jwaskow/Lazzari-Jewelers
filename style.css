@@ -1,0 +1,86 @@
+#logo {
+  font-size: 100px;
+  font-family: 'Pinyon Script', cursive;
+  text-align: center;
+  padding-bottom: 30px;
+  color: #343b41;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0 0 40px 0;
+  text-align: center;
+}
+
+#navbar li {
+  display: inline;
+  padding: 10px 30px;
+  background-color: rgb(213, 213, 213);
+}
+
+#navbar li:hover {
+  background-color: rgb(203, 203, 203);
+}
+
+body {
+  background: #f4f5f7 !important;
+  margin: 0 2% !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+#products {
+  list-style-type: none;
+}
+
+#products li {
+  height: 200px;
+  width: 30%;
+}
+
+.product-img {
+  height: 90%;
+  width: 200px;
+}
+
+.product-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+}
+
+.product-price {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  float: right;
+}
+
+footer {
+  padding-top: 70px;
+  clear: both;
+  text-align: center;
+}
+
+footer li {
+  list-style-type: none;
+  display: inline;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+#footer-bar {
+  background-color: rgb(213, 213, 213);
+}
+
+.sort {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#sort-div {
+  float: left;
+}
+
+#product-container {
+  margin: 0 10%;
+}
